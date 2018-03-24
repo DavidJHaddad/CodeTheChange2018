@@ -60,18 +60,12 @@ figure {
 .fb-page{
     align-content: right;
     background-color: white;
-    border:2px solid black;
-    margin: auto;
-    padding:20px;
 }
 #eventsBackground{
     background-color: rgb(172,222,249);
 }
 #descriptionJumbo{
     background-color: white;
-    border:2px solid black;
-    margin: auto;
-    padding:20px;
 }
 
 /*
