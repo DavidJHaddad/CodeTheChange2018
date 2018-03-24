@@ -58,7 +58,7 @@ figure {
 }
 
 .fb-page{
-    align-content: right;
+    width:50%;
     background-color: white;
 }
 #eventsBackground{
@@ -66,6 +66,12 @@ figure {
 }
 #descriptionJumbo{
     background-color: white;
+}
+h2{
+    background-color: white;
+}
+.fb-xfbml-parse-ignore{
+    width:50%;
 }
 
 /*
