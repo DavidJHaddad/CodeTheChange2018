@@ -14,46 +14,8 @@
 <body id="eventsBackground">
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#" id="logo"><img src="img/queensQlogo.png"/></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarResponsive">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="team.html">Meet the Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="upcomingEvents.html">Events</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="news.html">News</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="getInvolved.html">Get Involved</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="ourMission.html">Our Mission</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="donate.html">Donate</a>
-                </li>
-            </ul>
+<div id="header"></div>
 
-
-
-        </div>
-    </div>
-</nav>
     <script>
   window.fbAsyncInit = function() {
     FB.init({
@@ -104,8 +66,11 @@ Founded in 2008, UNICEF Queen's is a campus chapter of UNICEF at Queen's Univers
     </div>
   </div>
 </div>
-    </body>
-    
+
+<script>
+    $("#header").load("header.html");
+</script>
 
 
+</body>
 </html>
