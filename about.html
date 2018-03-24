@@ -1,10 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>About</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UNICEF Queen's Events</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body id="eventsBackground">
+
+<!-- Navigation -->
+<div id="header"></div>
+
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : 'your-app-id',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.12'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+    
+<br> 
+<div class="container" >
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-8">
+      <div class="jumbotron" id="descriptionJumbo">
+  <h1 class="display-3">About</h1>
+  <hr class="my-2">
+  <p>UNICEF, the United Nations International Children’s Emergency Fund is a global, non-profit organization that aims to build a world where the rights of every child are realized. As the largest child-focused humanitarian agency in the world, UNICEF's programs address the full range of children’s rights: Health, Education, Equality, and Protection. 
+      <br>
+      <br>
+Founded in 2008, UNICEF Queen's is a campus chapter of UNICEF at Queen's University. Our purpose is to empower the Queen’s community to make a difference in children's lives. Our mission is to help the world’s children in need through education, advocacy, and fundraising. </p>
+  <p class="lead">
+    <a class="btn btn-outline-dark btn-lg" href="https://www.unicef.ca/en" role="button" target="_blank">Learn more about UNICEF's mission</a>
+  </p>
+</div>
+    </div>
+    <div class="col-6 col-md-4">
+        <div class="jumbotron">
+        <h5>Our Mission:</h5>
+        <hr class="my-2">
+        <p class="lead"><i>UNICEF Queen's is dedicated to raising awareness and funds for UNICEF's global initiatives.</i></p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<script>
+    $("#header").load("header.html");
+</script>
+
 
 </body>
 </html>
