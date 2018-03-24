@@ -67,11 +67,8 @@ figure {
 #descriptionJumbo{
     background-color: white;
 }
-h2{
+.jumbotron{
     background-color: white;
-}
-.fb-xfbml-parse-ignore{
-    width:50%;
 }
 
 /*
