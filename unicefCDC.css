@@ -1,5 +1,9 @@
-body{
+/*body{
     background: url(blur%20background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+*/
+#logo{
+    width:100%;
 }
