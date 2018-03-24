@@ -5,5 +5,15 @@
 }
 */
 #logo{
-    width:50%;
+    width:30%;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.nav-item{
+    font-size: 1.6em !important;
+}
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
 }
